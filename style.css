@@ -1,0 +1,84 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.2)),url(images/pexels-olia-danilevich-5088174.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 10%;
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -40px;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ecefe3;
+}
+
+.navbar li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(209 209 205);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.navbar li a:hover::after{
+    width: 100%;
+
+}
+
+.container{
+    padding: 145px 20px;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+p{
+    color: rgb(209 209 205);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    font-size: 28px;
+    padding: 12px 0px;
+}
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+}
